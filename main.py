@@ -10,11 +10,11 @@ from gtts import gTTS
 import pyglet
 import os, time
 print("-" * 60)
-print(" Project: Voice based Email for blind")
-print(" <--Created by Yashu Chauhan-->")
+print(" Project: Voice based Email Assistance for Visually Impaired")
+print(" <--Created by Deepthi M-->")
 print("-" * 60)
 # project name
-tts = gTTS(text="Project: Voice based Email for blind", lang='en')
+tts = gTTS(text="Project: Voice based Email Assistance for Visually Impaired", lang='en')
 ttsname = ("path/name.mp3")
 tts.save(ttsname)
 music = pyglet.media.load(ttsname, streaming=False)
